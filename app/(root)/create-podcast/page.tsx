@@ -4,7 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button" 
 import {
   Form,
   FormControl,
@@ -151,7 +151,7 @@ const CreatePodcast = () => {
         </div>
 
         <div className="flex flex-col pt-10">
-          <GeneratePodcast 
+          { <GeneratePodcast 
             setAudioStorageId={setAudioStorageId}
             setAudio={setAudioUrl}
             voiceType={voiceType}
@@ -159,7 +159,7 @@ const CreatePodcast = () => {
             setAudioDuration={setAudioDuration}
             
           
-          />
+          /> }
           <GenerateThumbnail />
 
           <div className="mt-10 w-full">

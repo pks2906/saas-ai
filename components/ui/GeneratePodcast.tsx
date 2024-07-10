@@ -1,5 +1,5 @@
-
 import { GeneratePodcastProps } from '@/types'
+
 import React from 'react'
 
 const GeneratePodcast = ({
@@ -12,7 +12,14 @@ const GeneratePodcast = ({
     setAudioDuration,
 }: GeneratePodcastProps) => {
   return (
-    <div>GeneratePodcast</div>
+    <div>
+      <div className="flex flex-col gap-2.5">
+
+        
+
+
+      </div>
+    </div>
   )
 }
 
