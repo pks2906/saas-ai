@@ -110,11 +110,11 @@ const CreatePodcast = () => {
                 <SelectValue placeholder="Select AI Voice" className="placeholder:text-gray-1" />
               </SelectTrigger>
               <SelectContent className="text-16 border-none bg-black-1 font-bold text-white-1 focus-visible:ring-offset-orange-1">
-                {voiceCategories.map ((category) => (
+                {voiceCategories.map((category) => (
                     <SelectItem key={category} value={category} className="capitalize focus-visible:ring-offset-orange-1 ">
                         {category}
                     </SelectItem>
-                ))}
+                ))} 
 
 
               </SelectContent> 
